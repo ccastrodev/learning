@@ -1,47 +1,45 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f9c28ca3f2.js" crossorigin="anonymous"></script>
 <style>
 div.radio-btn {
-    min-width: 240px;
     position: relative;
-    z-index: 3;
-    display: inline-block;
+    display: block;
     padding: 0;
+    margin: 0 auto;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #392A13;
+    border-radius: 6px;
+    text-align: center;
 }
 div.radio-btn a{
-	float: right;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    margin-top: 0px;
     text-decoration: none;
-    background-color: white;
-    padding-left: 32px;
-    padding-top: 2%;
-    padding-bottom: 2px;
-    border: 1px solid #392A13;
-    border-radius: 6px;
     position: relative;
+    padding: 3%;
+    margin: 0;
+    width: auto;
+    display: block;
 }
-div.radio-btn img{
-    position: relative;
-    bottom: 3px;
-    right: 97%;
+i.fas.fa-microphone-alt {
+    color: #392A13;
+    font-size: 2em;
 }
 div.radio-btn span{
-    top: 3px;
-	left: 15px;
-	position: relative;
-	color: #392A13;
+    position: relative;
+    color: #392A13;
+    display: inline-block;
+    vertical-align: super;
+    padding: 0 0 0 6px;
 }
-/*IE7*/
-div.radio-btn {
-*z-index:1
-}
+
 /*-- 768px --*/
 @media only screen and (min-width: 48em) {
     div.radio-btn a,
     div.radio-btn span{
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
@@ -49,7 +47,7 @@ div.radio-btn {
 @media only screen and (min-width: 64em) {
     div.radio-btn a,
     div.radio-btn span{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -87,7 +85,8 @@ div.radio-btn {
 </style>
 
 <div class="radio-btn">
-        <a data-ab="radio" href="/berries-radio-form" name="Radio Listeners" id="radioAnchor">
-            <img data-ab="radio" src="https://cdn4.1800flowers.com/wcsstore/FruitBouquet/images/berries/icons/radio-mic-icon.jpg" border="0" align="right" alt="Radio Specials"><span> RADIO CODE | CLICK HERE &gt; </span>
+        <a href="#" id="radioAnchor" title="Click Here!">
+            <i class="fas fa-microphone-alt"></i>
+            <span> RADIO CODE | CLICK HERE &gt; </span>
         </a>
 </div>
