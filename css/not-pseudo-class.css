@@ -1,9 +1,0 @@
-/*-- If the BODY DOES NOT have this class --*/
-body:not(.CUSTOM_CLASS) .content-wrapper {
-	display: none;
-}
-
-/*-- If the BODY DOES have this class --*/
-body.CUSTOM_CLASS .content-wrapper{
-    display: block;
-}
