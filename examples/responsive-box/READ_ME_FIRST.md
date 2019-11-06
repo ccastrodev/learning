@@ -14,7 +14,7 @@ If you have any questions or suggestions, feel free to send me comment.
 Thank you.
 <br>
 <br>
-░𝗖𝗮𝗿𝗹𝗼𝘀 𝗖𝗮𝘀𝘁𝗿𝗼
-░<i>Front-End Web Developer &amp; Designer</i>
-░Porfolio: <b>𝙲𝙲</b>𝚊𝚜𝚝𝚛𝚘<b>𝙳</b>𝚎𝚜𝚒𝚐𝚗.𝚌𝚘𝚖
+░𝗖𝗮𝗿𝗹𝗼𝘀 𝗖𝗮𝘀𝘁𝗿𝗼<br>
+░<i>Front-End Web Developer &amp; Designer</i><br>
+░Porfolio: <b>𝙲𝙲</b>𝚊𝚜𝚝𝚛𝚘<b>𝙳</b>𝚎𝚜𝚒𝚐𝚗.𝚌𝚘𝚖<br>
 ░GitHub: 𝙶𝚒𝚝𝙷𝚞𝚋.𝚌𝚘𝚖/<b>𝙲𝙲𝚊𝚜𝚝𝚛𝚘𝙳𝚎𝚟</b>
