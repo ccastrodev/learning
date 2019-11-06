@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <h1>The rock, paper, scissors game</h1>
+        <p>respond to the alert window</p>>
+        <script>
+            let playerScore = 0;
+            let computerScore = 0;
+            let ties = 0;
+           function computerPlay() {
+               let computerTurn = Math.floor(Math.random() * 3 + 1 );
+               if (computerTurn === 1) {return 'Rock'
+                } else if (computerTurn === 2) {return 'Paper'
+                } else {return 'Scissors'} ;
+           }
+           function playerPlay() {
+               let playerTurn = prompt('Rock, Paper, or Scissors?', '')
+              return playerTurn
+           }
+           function playRound(playerSelection, computerSelection) {
+               let playerTurn = playerSelection.toLowerCase();
+               let computerTurn = computerSelection.toLowerCase();
+               
+               switch(playerTurn) {
+                   case 'rock' : if (computerTurn === 'scissors') { playerScore++;
+                   return 'You win: ' + playerTurn + ' beats ' + computerTurn + '!';
+                    } else if (computerTurn === 'paper') { computerScore++;
+                    return 'You lose: ' + computerTurn + ' beats ' + playerTurn + '!';
+                     } else if (computerTurn === 'rock') { ties++; 
+                     return 'It\'s a tie!' };
+                   break;
+                   case 'paper' : if (computerTurn === 'rock') { playerScore++;
+                   return 'You win: ' + playerTurn + ' beats ' + computerTurn + '!';
+                    } else if (computerTurn === 'scissors') { computerScore++;
+                    return 'You lose: ' + computerTurn + ' beats ' + playerTurn + '!';
+                     } else if (computerTurn === 'paper') { ties++;
+                     return 'It\'s a tie!' };
+                   break;
+                   case 'scissors' : if (computerTurn === 'paper') { playerScore++;
+                   return 'You win: ' + playerTurn + ' beats ' + computerTurn + '!';
+                    } else if (computerTurn === 'rock') { computerScore++;
+                    return 'You lose: ' + computerTurn + ' beats ' + playerTurn + '!';
+                    } else if (computerTurn === 'scissors') {ties++;
+                    return 'It\'s a tie!' };
+                    break; 
+                    default : alert('invalid entry!')
+               }
+           }
+           function game() { while ((computerScore + playerScore + ties) < 5 ) {console.log(playRound(playerPlay(), computerPlay())) };
+            console.log('Computer: ' + computerScore + ': User: ' + playerScore);
+            if (computerScore < playerScore) {console.log('You win the game!')
+            } else if (computerScore > playerScore ) {console.log('Computer wins the game!')
+            } else {console.log('it\'s a tie!')}
+           }
+           game();
+           
+       </script>
+    </body>
+</html>
