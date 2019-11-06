@@ -1,0 +1,78 @@
+body {
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+html {
+  font-weight: 400;
+}
+
+a {
+  color: #fb5e2c;
+}
+a:hover {
+  text-decoration: none;
+}
+.boxes {
+  margin: 1%;
+}
+.boxes .inner-content.orange {
+  background-color: #fb5e2c;
+  border-bottom: 5px solid #ff4712;
+}
+.boxes .inner-content.blue {
+  background-color: #232d3b;
+  border-bottom: 5px solid #05080e;
+}
+.boxes .inner-content.torquise {
+  background-color: #7accc8;
+  border-bottom: 5px solid #3aa39d;
+}
+.boxes .inner-content.green {
+  background-color: #a3d39c;
+  border-bottom: 5px solid #68af5f;
+}
+.boxes .inner-content {
+  text-align: center;
+  padding: 15px 20px;
+}
+.boxes .inner-content h2 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 27px;
+  margin: 0;
+}
+.boxes .inner-content h4 {
+  color: #ffffff;
+  font-size: 21px;
+}
+.boxes .inner-content .icon {
+  padding: 30px 0px;
+  height: 130px;
+}
+.boxes .inner-content .icon:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.boxes .inner-content .icon .flaticon>div {
+  padding: 10px 0px;
+}
+.boxes .inner-content .icon i {
+  color: #ffffff;
+  display: inline-block;
+}
+.boxes .inner-content .icon i.fa {
+  font-size: 62px;
+}
+.boxes .inner-content .icon i.flaticon:after,
+.boxes .inner-content .icon i.flaticon:before {
+  margin-left: 0;
+  font-size: 44px;
+}
+.boxes .inner-content .description {
+  color: #ffffff;
+  font-size: 14px;
+}
+.boxes .inner-content .btn {
+  margin-top: 20px;
+}
